@@ -2597,16 +2597,20 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			height: auto;
 		}
 
 		.image.middle {
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			width: 100% !important;
+			height: auto !important;
 		}
 
 			.image.fit img {
 				width: 100%;
+				height: auto;
 			}
 
 		.image.main {
